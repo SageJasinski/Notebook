@@ -1,5 +1,7 @@
 name: deploy-book
 
+name: deploy-book
+
 # Run this when the master or main branch changes
 on:
   push:
@@ -10,8 +12,8 @@ on:
     # unrelated files, you can make this run only if a file within that specific
     # folder has been modified.
     #
-    paths:
-    - Notes/**
+    # paths:
+    # - some-subfolder/**
 
 # This job installs dependencies, builds the book, and pushes it to `gh-pages`
 jobs:
@@ -29,9 +31,9 @@ jobs:
       with:
         python-version: 3.11
 
-    # - name: Install dependencies
-      # run: |
-        # pip install -r requirements.txt
+    - name: Install dependencies
+      run: |
+        pip install -r requirements.txt
 
     # (optional) Cache your executed notebooks between runs
     # if you have config:
