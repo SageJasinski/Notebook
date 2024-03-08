@@ -4,5 +4,5 @@
 format: jb-book
 root: intro
 chapters:
-- file: ../Linear Algebra/Multiplying_Vectors.ipynb
-- file: ../Linear Algebra/Adding_Vectors.ipynb
+- file: Multiplying_Vectors.ipynb
+- file: Adding_Vectors.ipynb
