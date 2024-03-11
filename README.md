@@ -1,6 +1,6 @@
 # Notebook
 
-* This is a Collection of Notes and notebooks to document my learning process *
+This is a Collection of Notes and notebooks to document my learning process
 
 ### Table of contents
 
